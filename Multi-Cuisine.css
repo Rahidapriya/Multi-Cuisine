@@ -1,0 +1,782 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.logo{
+    width:180px;
+    position: absolute;
+    top:4%;
+    left:10%;
+  
+}
+.img-responsive{
+    /*max-width:100%;*/
+  
+    transition: transform .5s;
+}
+.img-responsive:hover {
+    transform: scale(1.2);
+}
+#hero-image{
+    background: /*linear-
+    gradient (rgba(0,0,0,0.5),#009688),*/url(back1.jpeg);
+  /*  -webkit-background-size:cover;*/
+    background-size:cover;
+    background-position: center;
+    height:100vh;
+}
+.hero-wrapper{
+    color:white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+ 
+.hero-wrapper h6 {
+    font-size: 4rem;
+    text-align:center;
+    margin: auto;
+    width: 80%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Kaushan Script', cursive;
+   
+    
+   
+    
+}
+.hero-wrapper p{
+    font-size: 1.6rem;
+}
+.hero-wrapper h6 img{
+    border-radius: 5rem;
+}
+ 
+.hero-wrapper span{
+    margin-left:6rem;
+    display:inline-block;
+    margin-bottom: .5rem;
+}
+.form_code button a{
+    text-decoration: none;
+    color: white;
+}
+.form_code button a:hover{
+    color:white;
+    display: inline;
+   
+}
+ 
+.form_code{
+    text-align: center;
+}
+.form_code .post_code{
+    display:block;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 2rem;
+    padding:.6rem;
+    border:none;
+    outline: none;
+}
+.form_code button{
+    width:40%;
+    color: white;
+    display:inline-block;
+    text-align:center;
+    background-color: #792258;
+    border-radius: .3rem;
+    padding:.6rem;
+    border:none;
+    margin:1rem auto 0rem;
+ 
+}
+.form_code button:hover{
+    background-color: rgb(219, 102, 151);
+}
+ 
+
+
+/*================================================================================*/
+ 
+ 
+.sidenav  {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-image:/*#8f553a;*/linear-gradient(to right,#3B0918,#AE0000,#DC0000);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 6rem;
+  }
+  
+  .sidenav a {
+   /* padding: 8px 8px 8px 32px;*/
+   list-style: none;
+   margin:5rem 2rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  
+  
+  span{
+      float:right;
+     top:3rem;
+      right:2.5rem;
+      margin: 4rem 6rem;
+      background-color: rgb(97, 1, 1);
+      position: sticky;
+    
+  }
+  
+  
+  .sidenav .closebtn {
+   /* position: absolute;
+    /*top: 0;*/
+    right: 2.5rem;
+    margin:-3.2rem 6rem;
+    top:0;
+    float:right;
+   /* font-size: 3.6rem;*/
+   /* margin-left: 50px;*/
+  }
+
+ 
+
+.img-responsive{
+    max-width:100%;
+    transition: transform .5s;
+}
+.img-responsive:hover {
+    transform: scale(1.2);
+}
+#hero-image{
+    background: /*linear-
+    gradient (rgba(0,0,0,0.5),#009688),*/url(back1.jpeg);
+  /*  -webkit-background-size:cover;*/
+    background-size:cover;
+    background-position: center;
+    height:100vh;
+}
+.hero-wrapper{
+    color:white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+ 
+.hero-wrapper h6 {
+    font-size: 4rem;
+    text-align:center;
+    margin: auto;
+    width: 80%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Kaushan Script', cursive;
+   
+    
+   
+    
+}
+.hero-wrapper p{
+    font-size: 1.6rem;
+}
+.hero-wrapper h6 img{
+    border-radius: 5rem;
+}
+ 
+.hero-wrapper span{
+    margin-left:6rem;
+    display:inline-block;
+    margin-bottom: .5rem;
+}
+.form_code button a{
+    text-decoration: none;
+    color: white;
+}
+.form_code button a:hover{
+    color:white;
+    display: inline;
+   
+}
+ 
+.form_code{
+    text-align: center;
+}
+.form_code .post_code{
+    display:block;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 2rem;
+    padding:.6rem;
+    border:none;
+    outline: none;
+}
+.form_code button{
+    width:40%;
+    color: white;
+    display:inline-block;
+    text-align:center;
+    background-color: #792258;
+    border-radius: .3rem;
+    padding:.6rem;
+    border:none;
+    margin:1rem auto 0rem;
+ 
+}
+.form_code button:hover{
+    background-color: rgb(219, 102, 151);
+}
+ 
+#product {
+  
+    
+    width:80%;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+   margin-left: auto;
+    margin-right: auto;
+    background-color:whitesmoke;
+    padding:4rem 18rem 1rem;
+    padding-bottom: 112rem;
+}
+.product__list__item{
+    float:left;
+    width:32%;
+    margin-left: .5rem;
+    
+}
+.product__list__item img{
+    border-radius:5px;
+}
+
+.product__list__item p{
+    font-size: 2rem;
+   padding-right: 1.5rem;
+    padding-bottom: 4.5rem;
+    text-align: justify;
+}
+
+.product_heading p a{
+    text-decoration: none;
+    color:maroon;
+    font-size: 2.8rem;
+   
+   
+ 
+}
+.product_heading p a:hover{
+   
+    color: TOMATO;
+}
+.product_heading p{
+    padding-top: .5rem;
+  
+}
+
+
+/*..................................................................................*/
+#about{
+    background-color:rgb(250, 244, 244);
+    padding:4rem 18rem 1rem;
+    padding-bottom: 40rem;
+    width: 80%;
+    margin-left:auto ;
+    margin-right: auto;
+}
+.title p{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Rampart One', cursive;
+    color: maroon;
+}
+.about-img img{
+   
+    border-radius: 50px;
+    float: right;
+    padding:4rem;
+    max-width: 100%;
+    margin-top: 6rem;
+    
+    
+   
+}
+.only{
+    background-color: #fff;
+}
+/*
+.about-left h2{
+    font-size: 5rem;
+    font-family: 'Kaushan Script', cursive;
+    padding-left: 25rem;
+    color: maroon;
+    margin-top: 6rem;
+
+}
+.about-left p{
+    border-style: none;
+    padding-left: 30rem;
+    border-width: .3rem;
+    box-sizing: border-box;
+    padding:.5rem;
+    box-shadow: .5rem .5rem .5rem .5rem whitesmoke;
+    font-size: 2rem;
+    width:30%;
+    margin-left:5rem;
+    margin-right:5rem;
+    margin-top: 3rem;
+   
+  
+
+}*/
+.about-head{
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 5rem;
+}
+.about-head h2{
+    color:rgb(97, 1, 1);
+    font-family: 'Kaushan Script', cursive;
+}
+.feature-box{
+    width: 80%;
+    margin:auto;
+    padding-top:15rem;
+   padding-left: 2rem;
+   flex-wrap: wrap;
+  
+
+  
+
+}
+.feature-text p{
+ padding-left:2rem;
+ font-size: 2rem;
+ text-align: justify;
+}
+.icon .fa{
+    width: 5rem;
+    height: 5rem;
+    font-size: 3rem;
+    line-height: 5rem;
+    border:3px solid maroon;
+    border-radius: 8px;
+    color: maroon;
+   transition: .5s;
+  
+}
+
+.icon .fa:hover{
+    background: rgb(230, 94, 121);
+}
+
+.feature h1{
+    color:maroon;
+    font-size: 2.4rem;
+  
+}
+.same-line{
+  
+    display: flex;
+    padding-bottom: 3rem;
+    
+   
+    
+}
+#review{
+    background-color:white;
+    padding:4rem 0rem 1rem;
+    padding-bottom: 40rem;
+    width: 100%;
+    padding: 70px 0;
+    margin-left:auto ;
+    margin-right: auto;
+}
+.four-seg{
+    background:linear-gradient(rgba(35,43,56,0.9),rgba(35,43,56,0.9)),url(backhide.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.testimonial-row{
+    width:80%;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-top:2rem ;
+}
+.testimonial-col{
+    flex-basis: 26%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px #DAF0EE;
+    cursor: pointer;
+    transition: transform .5s;
+    text-align: justify;
+
+}
+.testimonial-col{
+    font-size: 1.5rem;
+    background-color: white;
+}
+.user{
+    display:flex;
+    align-items:center;
+    margin:20px 0;
+}
+.user img{
+    width:50px;
+    height:45px;
+    margin-right:26px;
+    border-radius: 6px;
+}
+.user-info .fa{
+    margin-left:10px;
+    color:#27c0ff;
+    font-size:20px;
+}
+.user-info small{
+
+    color:#009688;
+}
+.testimonial-col:hover{
+    transform: translateY(-8px)
+}
+.footer-row{
+    width:80%;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    color: #fff;
+}
+.footer-left,.footer-right{
+    flex-basis:45%;
+    padding:10px;
+    margin-bottom: 20px;
+}
+.footer-right{
+    text-align: right;
+}
+.footer-right p a{
+    text-decoration: none;
+    color:white;
+    transition: .5s;
+}
+.footer-right p a:hover{
+    color:palegreen;
+    font-size:1.7rem ;
+}
+.footer-right p a:active{
+    color:rgb(252, 235, 81);
+    font-size:1.7rem ;
+}
+
+.footer-row h1{
+    margin:15px 0;
+    font-size: 2.5rem;
+}
+.footer-row p{
+    line-height:35px;
+    font-size: 1.5rem;
+}
+.footer-left .fa,.footer-right .fa{
+    font-size:20px;
+    color:whitesmoke;
+    margin:10px;
+}
+.social-link{
+    text-align: center;
+    padding-bottom: 2rem;
+
+}
+.social-link .fa{
+    height:40px;
+    width:40px;
+    font-size:20px;
+    line-height: 40px;
+    border:1px solid #fff;
+    border-radius: 5px;
+    margin:40px 5px 0;
+    background-color:#fff;
+    color:#009688;
+    cursor: pointer;
+    transition: .5s;
+
+}
+.social-link .fa:hover{
+    background-color:#009688;
+    color:#fff;
+    border:1px solid maroon;
+    transform: translateY(-8px);
+
+}
+.social-link .fa:active{
+    background-color:white;
+}
+.copy p{
+    font-size:15px;
+   text-align: center;
+  
+    margin-top:24px;
+    margin-bottom: 30px;
+    font-weight: 400;
+
+}
+
+/*================================================================================*/
+ 
+
+  @media only screen and (max-width: 900px){
+    
+    html{
+        font-size: 50%;
+    }
+    
+    
+}
+@media only screen and (max-width: 750px){
+    
+    html{
+        font-size: 40%;
+
+    }
+    .hero-wrapper h6 {
+        font-size: 2.7rem;
+         text-align:center;
+         margin: auto;
+         width: 100%;
+     }
+     .hero-wrapper h6 img{
+         height: 50px;
+         width: 50px;
+         border-radius: 50%;
+     }
+     .hero-wrapper p{
+         font-size: 1.5rem;
+        
+     }
+     .product__list__item{
+        float:none;
+        width:100%;
+        padding:1.5rem;
+     }
+     .product__list__item p{
+         padding:2rem;
+         font-size: 2rem;
+        
+        }
+        .img-responsive:hover {
+            transform: scale(1.1);
+        }
+        .img-responsive{
+            
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        }
+        .hero-wrapper p{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+
+        }
+        #product {
+    
+            width:80%;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+           margin-left: auto;
+            margin-right: auto;
+            background-color:whitesmoke;
+            padding:2rem 2rem 1rem;
+            padding-bottom: 4.5rem;
+        }
+        #about{
+            padding:2rem 2rem 1rem;
+            padding-bottom: 4.5rem;
+          
+        }
+        .about-img img{
+            border-radius: 30px;
+            padding-left:5rem;
+            margin-left: 2rem;
+            width:100%;
+            
+            
+            }
+           
+
+
+            .product__list__item img{
+                padding-bottom: 2.5rem;
+                border-radius: 10px;
+            }
+            .testimonial-col{
+                flex-basis: 100%;
+            }
+            .footer-left,.footer-right{
+                flex-basis: 100%;
+                font-size:14px;
+            }
+    
+}
+@media only screen and (max-width: 900px){
+    
+    html{
+        font-size: 50%;
+    }
+  
+    
+}
+
+ 
+
+
+/*.topnav {
+    background-color: rgb(70, 67, 68);
+    overflow: hidden;
+  }
+  div{
+    margin:0;
+  }
+  
+  /* Style the links inside the navigation bar 
+  .topnav a {
+    display: block;
+    float:left;
+    margin-top:.8rem ;
+    margin-left: 10rem;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1.4rem 1.6rem;
+    text-decoration: none;
+    font-size: 2rem;
+   
+  }
+  .topnav img{
+    float:left;
+    padding: .2rem;
+    margin-left: 10rem;
+  }
+  /* Change the color of links on hover 
+    .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link 
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }*/
+  /*.manubtn:hover.sidenav{
+      visibility: visible;
+  }*/
+  /*.manubtn{
+      width: 50px;
+      height: 50px;
+      /*background:#471819;
+      text-align: center;
+      position: fixed;
+      right:50px;
+      top:20px;
+      border-radius: 3px;
+      z-index: 3;
+      cursor:pointer;
+ 
+  }
+  .manubtn img{
+      width:30px;
+      height: 25px;
+      margin-top:15px;
+      padding-bottom: 5px;
+  }
+  
+ 
+ 
+.sidenav{
+   /* visibility: hidden;
+    width:250px;
+    /*left:-250px;
+    height:100vh;
+    position:fixed;
+    right:0;
+    top:0;
+    background-image:linear-gradient(to right,#3B0918,#AE0000,#DC0000);
+    z-index:2;
+}
+nav ul li{
+    list-style:none;
+    margin:50px 0px;
+   /* box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid black;
+    transition:.4s;
+  
+    
+    
+}
+ul a{
+    padding-left:20px;
+}
+ul li:hover a{
+    padding-left: 30px;
+    transition: transform 1s;
+    color:darkorange;
+}
+nav ul li  a{
+    text-decoration: none;
+    color:#fff;
+}*/
+/*#check{
+    display:none;
+}
+label #btn,label #cancel{
+    position:absolute;
+    cursor: pointer;
+    border-radius: 3px;
+}
+label #btn{
+    left:40px;
+    top:25px;
+    font-size:35px;
+    color:white;
+    padding:6px 12px;
+}
+label #cancel{
+    z-index:1111;
+    left:195px;
+    top:17px;
+    font-size:30px;
+    color:#0a5275;
+    padding:4px 9px;
+ 
+}*/
