@@ -161,7 +161,7 @@ body{
  
 
 .img-responsive{
-    max-width:100%;
+    width: 80%;
     transition: transform .5s;
 }
 .img-responsive:hover {
@@ -376,6 +376,7 @@ body{
  text-align: justify;
 }
 .icon .fa{
+    text-align: center;
     width: 5rem;
     height: 5rem;
     font-size: 3rem;
