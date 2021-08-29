@@ -17,6 +17,7 @@ body{
 }
 .img-responsive{
     /*max-width:100%;*/
+   
   
     transition: transform .5s;
 }
@@ -25,7 +26,7 @@ body{
 }
 #hero-image{
     background: /*linear-
-    gradient (rgba(0,0,0,0.5),#009688),*/url(back1.jpeg);
+    gradient (rgba(0,0,0,0.5),#009688),*/url(images/back1.jpeg);
   /*  -webkit-background-size:cover;*/
     background-size:cover;
     background-position: center;
@@ -167,14 +168,7 @@ body{
 .img-responsive:hover {
     transform: scale(1.2);
 }
-#hero-image{
-    background: /*linear-
-    gradient (rgba(0,0,0,0.5),#009688),*/url(back1.jpeg);
-  /*  -webkit-background-size:cover;*/
-    background-size:cover;
-    background-position: center;
-    height:100vh;
-}
+
 .hero-wrapper{
     color:white;
     position:absolute;
@@ -268,20 +262,26 @@ body{
     
 }
 .product__list__item img{
-    border-radius:5px;
+    border-radius:50%;
 }
 
 .product__list__item p{
-    font-size: 2rem;
+    font-size: 1.8rem;
    padding-right: 1.5rem;
     padding-bottom: 4.5rem;
     text-align: justify;
+}
+.product__list__item h2 {
+    padding-left:3rem;
+}
+.product__list__item p {
+    padding-left:4rem;
 }
 
 .product_heading p a{
     text-decoration: none;
     color:maroon;
-    font-size: 2.8rem;
+    font-size: 2.4rem;
    
    
  
@@ -415,7 +415,7 @@ body{
     margin-right: auto;
 }
 .four-seg{
-    background:linear-gradient(rgba(35,43,56,0.9),rgba(35,43,56,0.9)),url(backhide.jpg);
+    background:linear-gradient(rgba(35,43,56,0.9),rgba(35,43,56,0.9)),url(images/backhide.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -586,6 +586,7 @@ body{
         float:none;
         width:100%;
         padding:1.5rem;
+        text-align: center;
      }
      .product__list__item p{
          padding:2rem;
